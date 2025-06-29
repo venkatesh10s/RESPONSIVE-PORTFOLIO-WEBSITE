@@ -1,10 +1,10 @@
-NAME      : S VENKATESH
+NAME     : S VENKATESH
 
-COMPANY   : NATIVESOFT TECH
+COMPANY  : NATIVESOFT TECH
 
-DURATION  : 1 MONTH
+DURATION : 1 MONTH
 
-POSITION  : FULL-STACK WEB DEVELOPMENT
+POSITION : FULL-STACK WEB DEVELOPMENT
 
 
 ## Personal Portfolio Website
@@ -72,3 +72,7 @@ Through this project, I was able to:
 - Create a professional site to attach in resumes or job profiles
 
 ## Screenshot
+
+![Image](https://github.com/user-attachments/assets/92ca2eaf-2b10-4149-a51c-60a62256cdec)
+![Image](https://github.com/user-attachments/assets/99f36583-6b22-4623-bc0e-13a952944080)
+![Image](https://github.com/user-attachments/assets/c6fedd06-20e5-4a70-ad16-0b820e5963dd)
