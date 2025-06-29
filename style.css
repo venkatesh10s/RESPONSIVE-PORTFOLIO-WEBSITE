@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f8f8;
+  color: #333;
+  padding: 0 15px;
+}
+
+header {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.project-card {
+  background: #fff;
+  border-left: 5px solid #007acc;
+  margin-bottom: 1.2rem;
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(0,0,0,0.08);
+  border-radius: 5px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list li {
+  background: #e0e0e0;
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input, form textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 0.8rem;
+  background: #007acc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #005f99;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #1a1a1a;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .skills-list {
+    flex-direction: column;
+  }
+}
